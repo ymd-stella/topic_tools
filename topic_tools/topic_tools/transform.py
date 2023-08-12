@@ -250,4 +250,4 @@ def main(argv=sys.argv[1:]):
         raise
     finally:
         node.destroy_node()
-        rclpy.shutdown()
+        rclpy.try_shutdown()
